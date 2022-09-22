@@ -1,12 +1,12 @@
 #[macro_use]
 extern crate log;
-use colog;
+use rust_logger;
 
 fn main()
 {
-    let mut clog = colog::builder();
-    clog.filter(None, log::LevelFilter::Warn);
-    clog.init();
+    let mut rust_logger = rust_logger::builder();
+    rust_logger.filter(None, log::LevelFilter::Warn);
+    rust_logger.init();
     error!("error message");
     error!("error with fmt: {}", 42);
     warn!("warn message");

@@ -1,10 +1,10 @@
 #[macro_use]
 extern crate log;
-use colog;
+use rust_logger;
 
 fn main()
 {
-    colog::init();
+    rust_logger::init();
     error!("error message");
     error!("error with fmt: {}", 42);
     warn!("warn message");
