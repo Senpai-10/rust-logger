@@ -9,11 +9,11 @@ fn level_token(level: &Level) -> &str
 {
     match *level
     {
-        Level::Error => "E",
-        Level::Warn  => "W",
-        Level::Info  => "*",
-        Level::Debug => "D",
-        Level::Trace => "T",
+        Level::Error => "Error",
+        Level::Warn  => "Warning",
+        Level::Info  => "Info",
+        Level::Debug => "Debug",
+        Level::Trace => "Trace",
     }
 }
 

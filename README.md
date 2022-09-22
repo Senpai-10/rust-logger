@@ -1,9 +1,9 @@
-# Simple colored logger for rust #
+# Simple colored logger for rust
 
 The `colog` library is a simple formatter backend for the standard
 rust logging system (in the `log` crate).
 
-## Getting started ##
+## Getting started
 
 ```rust
 #[macro_use]
@@ -29,13 +29,13 @@ This results in the following terminal output:
 
 ![demo screenshot from terminal](https://raw.githubusercontent.com/chrivers/rust-colog/master/screenshot.png)
 
-## Known issues and improvements ##
+## Known issues and improvements
 
 There are no known, serious, unsolved issues.
 
 Patches welcome :)
 
-## License ##
+## License
 
 This project is licensed under the LGPLv3. See the file [LICENSE](LICENSE) for
 details.
